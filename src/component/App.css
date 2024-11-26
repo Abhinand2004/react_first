@@ -1,0 +1,97 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.loading {
+  color: #FF5733;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20%;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+body{
+  width: 100vw;
+}
+
+
+.card-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #F6F6F6;
+  overflow-x:auto;
+  text-decoration: none;
+}
+
+.card {
+  height: 450px;
+  width: 270px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  height: 200px;
+  width: 80%;
+  object-fit: cover;
+  
+}
+
+.product-title {
+  font-size: 1em;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 0.9em;
+  color: #666;
+  padding: 0 10px;
+  text-align: center;
+  height: 50px;
+  overflow: hidden;
+
+}
+
+.product-category,
+.product-price,
+.product-rating {
+  font-size: 0.9em;
+  color: #555;
+  margin: 4px 0;
+}
+
+.discount {
+  color: #FF5733;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F9FAFB;
+}

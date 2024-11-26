@@ -1,0 +1,117 @@
+/* Details.css */
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f7f7f7;
+  }
+  
+  .details-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .details-img {
+    width: 180px; 
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .details-content h2 {
+    font-size: 1.4rem; 
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    letter-spacing: 0.5px; 
+  }
+  
+  .details-content p {
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem; 
+    line-height: 1.4;
+    color: #555;
+    text-align: center;
+  }
+  
+  .details-content strong {
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .details-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 0.5rem; 
+    width: 100%; 
+  }
+  
+  .details-buttons button {
+    flex: 1; 
+    padding: 0.6rem 1rem; 
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .details-buttons button:first-child {
+    background-color: #4CAF50; 
+    color: #fff;
+  }
+  
+  .details-buttons button:first-child:hover {
+    background-color: #45a049; 
+  }
+  
+  .details-buttons button:last-child {
+    background-color: #FF9800; 
+    color: #fff;
+  }
+  
+  .details-buttons button:last-child:hover {
+    background-color: #fb8c00;
+  }
+  
+  .loading {
+    font-size: 1.8rem; 
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+    color: #888; 
+  }
+  
+
+  @media (max-width: 600px) {
+    .details-content {
+      padding: 1rem;
+      max-width: 90%;
+    }
+  
+    .details-img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .details-content h2 {
+      font-size: 1.2rem;
+    }
+  
+    .details-buttons button {
+      font-size: 0.85rem;
+      padding: 0.5rem;
+    }
+  }
+  
